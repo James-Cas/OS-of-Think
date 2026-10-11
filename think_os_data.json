@@ -1,0 +1,20 @@
+{
+  "user_files": {
+    "Simple.txt": {
+      "encrypted": true,
+      "salt": "IcFuNaALpxzFFtOleVWJBA==",
+      "data": "gAAAAABqpM-wR60hiK8j_DQnR3x6SsogVqDhmFOi-cdppARM3y8FfkBpkWO4CJPQmr_B7XS1zuTV9JBhNNxEh-9PI1JWk07eX2xlxbge0Vj7LMIc_TJJ8qT-LwfehN6S4oZZFnuC3pNv7uQOKgyyIGwX1k-Qg29XOOrOf_M4D_UX2TfDblussEg="
+    }
+  },
+  "game_stats": {},
+  "installed_mods": {
+    "Think_Browser": {
+      "filename": "Think_Browser.py",
+      "description": "A browser, a text reader, a file search, do want you want to do.",
+      "author": "James Caster",
+      "installed_date": "2026-05-31",
+      "runs": 1
+    }
+  },
+  "password_hash": "5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8"
+}
