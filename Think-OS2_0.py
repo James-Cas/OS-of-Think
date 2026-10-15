@@ -125,7 +125,7 @@ class ThinkOS:
             self.installed_mods = {}
 
     def save_data(self):
-        """Save user files to disk"""
+        """Save user files to computer"""
         try:
             data = {
                 'user_files': self.user_files,
