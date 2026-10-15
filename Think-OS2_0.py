@@ -1,10 +1,9 @@
-#!/usr/bin/env python3
-
 # ============================================================================
 # PYTHON 3.13 COMPATIBILITY FIX
 # ============================================================================
 import sys
 import os
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 import warnings
 
 warnings.filterwarnings('ignore', category=DeprecationWarning)
