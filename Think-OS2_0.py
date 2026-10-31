@@ -125,7 +125,7 @@ class ThinkOS:
             self.installed_mods = {}
 
     def save_data(self):
-        """Save user files to computer"""
+        """Save user files to computer disk"""
         try:
             data = {
                 'user_files': self.user_files,
@@ -2671,7 +2671,7 @@ MOD_INFO = {{
 # ============================================================================
 if __name__ == "__main__":
     print()
-    start_up = ("Booting Up", "Starting Program", "Reading Python", "Opening files", "Wasting Ram", "Reading 1984", "Doing Math", "Testing Games", "Running Functions", "Taking a Break", "'Back on Track' – RobTop", "Counting Numbers")
+    start_up = ("Booting Up", "Starting Program", "Reading Python", "Opening files", "Wasting Ram", "Watching Girl's Last Tour", "Doing History", "Testing Games", "Running Functions", "Taking a Break", "'Back on Track' – RobTop", "Counting Numbers")
     for showing_start in start_up:
         print(showing_start)
         time.sleep(0.15)
@@ -2680,7 +2680,7 @@ if __name__ == "__main__":
         print(show_num, show_num)
         time.sleep(0.15)
     print()
-    print("Done with Nothing")
+    print("Done with running 'start_up' list (Does Nothing)")
     print()
     print("Starting Think OS v2.0...")
     time.sleep(2)
