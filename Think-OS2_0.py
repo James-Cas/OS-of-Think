@@ -149,7 +149,7 @@ class ThinkOS:
                         f.write("THINK OS MODS FOLDER\n")
                         f.write("=" * 50 + "\n\n")
                         f.write("Place your mod .py files in this folder.\n")
-                        f.write("Mods should contain: def run_mod(os_instance):\n")
+                        f.write("Mods should contain 'def run_mod(os_instance):'\n")
                 except OSError as e:
                     print(f"Warning: Could not create mods README ({e})")
         except OSError as e:
@@ -2671,7 +2671,7 @@ MOD_INFO = {{
 # ============================================================================
 if __name__ == "__main__":
     print()
-    start_up = ("Booting Up", "Starting Program", "Reading Python", "Opening files", "Wasting Ram", "Watching Girl's Last Tour", "Doing History", "Testing Games", "Running Functions", "Taking a Break", "'Back on Track' – RobTop", "Counting Numbers")
+    start_up = ("Booting Up", "Starting Program", "Reading Python", "Opening files", "Wasting Ram", "Watching Polytrack", "Doing History", "Testing Games", "Running Functions", "Taking a Break", "'Back on Track' – RobTop", "Counting Numbers")
     for showing_start in start_up:
         print(showing_start)
         time.sleep(0.15)

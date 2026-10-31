@@ -1,1 +1,3 @@
-Welcome to Think Browser where you can travel your local storage.
+Welcome to Think Browser where you can travel your local storage or visit the internet.
+IF you need help, type "HELP.txt" into the new URL.
+I hope you enjoy ThinkBrowser!

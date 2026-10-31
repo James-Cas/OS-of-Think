@@ -8,11 +8,11 @@
   },
   "game_stats": {},
   "installed_mods": {
-    "Think_Browser": {
-      "filename": "Think_Browser.py",
+    "ThinkBrowser": {
+      "filename": "ThinkBrowser.py",
       "description": "A browser, a text reader, a file search, do want you want to do.",
-      "author": "James Caster",
-      "installed_date": "2026-05-31",
+      "author": "James Cas",
+      "installed_date": "2026-10-31",
       "runs": 1
     }
   },
