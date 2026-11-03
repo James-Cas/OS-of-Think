@@ -12,8 +12,8 @@
       "filename": "ThinkBrowser.py",
       "description": "A browser, a text reader, a file search, do want you want to do.",
       "author": "James Cas",
-      "installed_date": "2026-10-31",
-      "runs": 1
+      "installed_date": "0001-01-01",
+      "runs": 0
     }
   },
   "password_hash": "5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8"

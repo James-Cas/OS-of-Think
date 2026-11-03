@@ -1,3 +1,5 @@
-Welcome to Think Browser where you can travel your local storage or visit the internet.
+Welcome to Think Browser where you can travel your local TXT storage or visit the internet.
 IF you need help, type "HELP.txt" into the new URL.
 I hope you enjoy ThinkBrowser!
+
+If you are looking for a website to test I would visit https://software-hardware.neocities.org/Text/Website.txt or https://en.wikipedia.org/wiki/wikipedia

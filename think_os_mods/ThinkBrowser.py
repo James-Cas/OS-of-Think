@@ -26,7 +26,6 @@ def fetch_page(url):
         if requests is None:
             return None, False, f"MISSING DEPENDENCY: 'requests' is needed to open web pages. ({DEPENDENCY_HINT})"
         try:
-            # Some sites refuse the default python-requests user agent
             response = requests.get(url, timeout=8, headers={"User-Agent": USER_AGENT})
             response.raise_for_status()
 
@@ -36,15 +35,11 @@ def fetch_page(url):
             if not is_text:
                 kind = content_type.split(";")[0].strip()
                 return None, False, f"UNSUPPORTED: This page is '{kind}', not text or HTML."
-
-            # With no charset in the header, requests assumes Latin-1 and
-            # garbles UTF-8 text (café -> cafÃ©), so detect the encoding instead.
             if "charset" not in content_type:
                 response.encoding = response.apparent_encoding or "utf-8"
 
             is_html = "html" in content_type
             return response.text, is_html, None
-        # Timeout must come first: ConnectTimeout is also a ConnectionError
         except requests.exceptions.Timeout:
             return None, False, "TIMEOUT ERROR: The server took too long to respond."
         except requests.exceptions.ConnectionError:
